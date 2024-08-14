@@ -1,0 +1,9 @@
+name: CubeSalary
+main: phpcube\CubeSalary
+api: 5.0.0
+version: 1.0.0
+author: "vk.com/phpcube"
+permissions:
+  cmd.salary:
+    default: true
+    description: "Зарплата"

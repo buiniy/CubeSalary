@@ -1,0 +1,42 @@
+# -------------------------------- #
+# Конфигурация плагина CubeSalary #
+# -------------------------------- #
+
+# Префикс плагина
+prefix: "§8§l(§c§lЗарплата§8§l)§r§f "
+# Команда
+command: "salary"
+# Описание команды
+desc: "§a§lЗарплата за привилегию"
+# Алиасы команды
+# Оставьте [] если не надо, если надо несколько то: ["alias1", "alias2"]
+aliases: ["zarplata"]
+
+# Юнит экономики
+eco_unit: "§a§lМонет§r"
+
+# Плагин экономики
+plugin-economy:
+  # Сделайте true если используете EconomyAPI
+  eco_api: true
+  # Сделайте true если используете BedrockEconomy
+  bedrock_eco_api: false
+
+
+# Плагин прав
+plugin-groups:
+  # Сделайте true если используете PurePerms
+  pure_perms_api: true
+  # Сделайте true если используете RankSystem
+  rank_sys_api: false
+
+
+# Настройки кд ввода команды /salary
+salary-cd: 60 # (в минутах)
+
+
+# Настройка групп и выплат
+salary-amount:
+  Player: 1000
+  Vip: 3000
+  Creative: 150000
